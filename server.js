@@ -24,8 +24,7 @@ app.use(express.static(__dirname+'/public'));
 //console.log(__dirname);
 
 app.listen(PORT, function(){
-	console.log('server started');
-	console.log(PORT);
+	console.log('server started on - ' + PORT);
 });
 
 // /about
